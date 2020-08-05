@@ -1,1 +1,397 @@
-Hello world!!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style style="text/css">
+.scroll-left {
+height: 50px;
+overflow: hidden;
+position: relative;
+}
+.m-scroll-left {
+line-height: 40px;
+}
+.scroll-left p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
+/* Apply animation to this element */
+-moz-animation: scroll-left 20s linear infinite;
+-webkit-animation: scroll-left 20s linear infinite;
+animation: scroll-left 20s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0%   { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0%   { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0%   {
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%);
+}
+100% {
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%);
+}
+}
+</style>
+
+<marquee class="m-scroll-left" behavior="scroll" direction="left">
+<strong> NEWS: We are pleased to announce that Norco College is now a Certified Brain Food Project with EASe institution </strong>
+</marquee>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Brain Food Project</title>
+
+  <meta name="description" content="">
+  <meta name="theme-color" content="#CCCCCC">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="public/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="public/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/img/apple-touch-icon-114x114.png">
+
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+
+<div class="banner">
+  <div class="header">
+    <div class="header-inner container clear">
+      <img src="public/img/transparentlogo.png" width="150" align="center"></img>
+      <img src="public/img/transparentBrainfoodprojectandEaseslogos-01.png" width="150" align="center"></img>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <h3 class="heading fs-3">The ​C​omeback ​C​ommunity&trade; presents: the ​B​rain Food Project&trade; &amp; EASe&trade; Certification </h3>
+      <input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox none">
+      <label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick>
+        <span class="navigation-toggle-label-inner">
+          <span class="sr">Navigation</span>
+        </span>
+      </label>
+      <div class="navigation">
+        <ul class="navigation-menu">
+          <li class="navigation-item"><a href="#home">Home</a></li>
+          <li class="navigation-item"><a href="#services">About Us</a></li>
+          <li class="navigation-item"><a href="#about">Learn More</a></li>
+          <li class="navigation-item"><a href="#consult">Consult</a></li>
+          <li class="navigation-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="banner-inner">
+      <h1 class="banner-lead">
+        <span class="banner-lead-1"> Holistically Support Students</span>
+        <span class="banner-lead-2">Uplift Student Equity</span>
+      </h1>
+      <div class="banner-content col-8-m no-float-m">
+        <p>
+          The needs of students don't disappear when they get to school. The Brain Food Project&trade; and EASe&trade; (Empathy, Awareness, and Sensitivity for equity) are here to help. Improve retention, success, GPA, and equity at your institution. Contact us today!
+
+        <br/><a href="public/2017_PASS_Data_Sheet_Print.pdf">See the data sheet.</a>
+        <h3>Dr. Jennifer Dorian will accept the State Chancellor's Student Success Award, presented by State Chancellor Dr. Eloy Ortiz Oakley on November 17th in San Jose, CA.</h3>
+        <br/><br/>
+        <h3>
+         On November 18th, she will speak on Empathy, Awareness, &amp; Sensitivity for equity at the Supplemental Instruction &amp; Tutoring Expo at Fresno City College.
+        </h3>
+        </p>
+      </div>
+      <div class="banner-buttons">
+        <a href="#services" class="button button-primary">Professional Development</a>
+        <a href="#consult" class="button button-secondary">Consult</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="services" class="animate-block content-block services-block">
+  <div class="services-block-inner container">
+    <div class="content-block-inner text-center">
+      <h2 class="uppercase pad-bottom-20">About Us</h2>
+      <div class="col-10-l no-float center">
+        <p>
+           The ​C​omeback ​C​ommunity™ presents the ​B​rain Food Project™ and EASe™, a professional development opportunity
+          for higher education  faculty, staff, student staff, and administrators. Become certified in Empathy, Awareness,
+          and Sensitivity for equity training today. Through purposeful thought, word, and action, student lives can be uplifted
+          for equity and parity in outcomes, which organically leads to lifelong success. Let's support comebacks in the lives
+          of our students, today.
+          <br/>
+        </p>
+
+        <br/>
+        <h2 class="uppercase pad-bottom-20">Awards</h2>
+        <p>
+          State Chancellor's Student Success Award
+          <br/>Stanback-Stroud Diversity Award, Academic Senate California Community Colleges
+          <br/>Georgia Southern University Golden Award
+          <br/>Northern California Writing Centers Association Spotlight Center Award
+          <br/>
+        </p>
+
+
+        <br/>
+        <h2 class="uppercase pad-bottom-20">A Note from Our Founder</h2>
+        <p>
+
+          Hello, and thank you so much for your interest in the Brain Food Project™ and EASe™.
+
+          I developed the Brain Food Project™ and EASe™ in the fall of 2014 as a response to
+
+          three major problems I observed in higher education: a) low attendance for
+
+          supplemental instruction and tutoring sessions; b) food insecurity among college
+
+          students; and c) feelings of disconnection and disenfranchisement. In an effort to meet
+
+          various needs, uplift equity, and support comebacks in the lives of college students, I
+
+          designed the Brain Food Project™ (BFP) and EASe™. The BFP is an implementation that
+
+          provides nutritious and popular food items (and even school supplies) to students
+
+          during learning assistance sessions. In short, attendance for tutoring is positively
+
+          reinforced while students’ basic needs are met and community is formed. It’s a win-win
+
+          situation. However, providing food to students isn’t enough. The meeting of needs must
+
+          be done so with authentic care and intentional recognition of personal dignity. To
+
+          support the implementation of the BFP, I developed a training methodology called EASe
+
+          (pronounced ease), which stands for Empathy, Awareness, and Sensitivity for equity. In
+
+          combination, the BFP and EASe are designed to uplift equity in a non-traditional yet
+
+          intuitive way. EASe may be implemented with the BFP or on its own. In fact, EASe is
+
+          beneficial for every program within higher education and beyond. There has never been
+
+          a better time to bring EASe to your campus. Through purposeful thought, word, and
+
+          action, the lives of those around you can be uplifted for equity and success. Our
+
+          research indicates the Brain Food Project and EASe are valuable implementations for
+
+          increasing student attendance, outcomes, equity, and community. If you would like to
+
+          learn more about EASe or the Brain Food Project w/ EASe, please contact us. Our
+
+          training and certification course can be catered to meet the specific needs of your
+
+          program. We are also accepting two more pilot programs at this time. Please take a
+
+          moment to review a sample of the training and certification course in the slideshow
+
+          below. The book, Empathy, Awareness, &amp; Sensitivity for equity: Uplifting Student Lives,
+
+          is currently available for order. If your program is struggling with low attendance or you
+
+          simply want to better understand how to support student equity, success, and need, we
+
+          can help you, step-by- step. I know the BFP w/ EASe or EASe on its own can help you
+
+          support students like it has done for so many others. Whether it is training and
+
+          certification, keynote speaking, webinars, podcasts, small group professional
+
+          development, data, justification for funding, or research assistance, we can help you
+
+          achieve your vision. Let’s get started together, today. Please contact me at
+
+          <a href="brain.food@comebackcommunity.com">brain.food@comebackcommunity.com</a>
+          <p>
+            Everyone deserves a comeback,
+          </p>
+          <p>
+            Jennifer
+          </p>
+      </div>
+     <div class="col-10-l no-float center">
+       <p>
+         -Jennifer Dorian, PhD, Founder of The Comeback Community™, Brain Food Project™, &amp;
+          EASe™. Winner of the 2016 Stanback Stroud Diversity Award and 2016 Golden Award. 
+      </p>
+      <p>
+        -Shushanek Silvas, PhD, Partner of The Comeback Community™, Brain Food Project™,
+          &amp; EASe™. Hayward Award Winner. 
+     </p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="animate-block feature-block contact-feature-block">
+  <div class="feature-block-inner container">
+    <div class="text-center">
+      <h2 class="feature-block-heading">Contact us to be considered as a pilot school! </h2>
+      <a class="button button-primary" href="#contact">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="content-block about-block">
+  <div class="about-block-inner container">
+    <div class="animate-block content-block-inner text-center">
+      <h2 class="uppercase pad-bottom-20">Learn More</h2>
+      <div class="col-10-l no-float center">
+        <p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Please email Dr. Jennifer Dorian for training justifications, quotes, and sample materials regarding the Brain Food Project&trade; and EASe&trade;.
+        </p>
+      </div>
+    </div>
+    <div class="col-10-l no-float center">
+<iframe class="centered" src="https://drive.google.com/file/d/0B8CBjOjYHpIUTWRQaENjczc5TkE/preview" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<br/>
+<iframe class="centered" src="//www.slideshare.net/slideshow/embed_code/key/g0gVVEswClXN5L" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>
+<div style="margin-bottom:5px"> </div> </div>
+      </div>
+    </div>
+    <div id="consult" class="content-block about-block">
+      <div class="about-block-inner container">
+        <div class="animate-block content-block-inner text-center">
+          <h2 class="uppercase pad-bottom-20">Consult with Us</h2>
+          <div class="col-10-l no-float center">
+            <p>
+              Here's how we can help you meet student need and uplift equity in any department or program at your institution:
+            </p>
+          </div class="col-10-l no-float center">
+          <html>
+          <head>
+          <style>
+          table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+          }
+
+          td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+          }
+
+          tr:nth-child(even) {
+              background-color: #dddddd;
+          }
+          </style>
+          </head>
+          <body>
+
+          <table>
+            <tr>
+              <th>Products and Services</th>
+            </tr>
+            <tr>
+              <td>Speaking at your college/university or event (e.g., keynote, full-day workshop, half-day workshop, three day training event); these are offered face-to-face or virtually and can include certification.</td>
+            </tr>
+            <tr>
+              <td>Face-to-face or virtual training for faculty, coordinators, leaders, tutors, administration, staff, community, and more (any of these groups can be served together or separately based on your need).</td>
+            </tr>
+            <tr>
+              <td>Become a certified Brain Food Project&trade; and/or EASe&trade; certified institution/program</td>
+            </tr>
+            <tr>
+              <td>Pre-order the EASe&trade; book</td>
+            </tr>
+            <tr>
+              <td>Assistance in drafting formal requests grant funding; providing justification and data for funding </td>
+            </tr>
+          </table>
+            <p>
+              *We look forward to helping you create equity on your campus
+            </p>
+                <div class="animate-block content-block-inner text-center">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div id="contact" class="animate-block content-block contact-block">
+  <div class="contact-block-inner container">
+    <div class="clear">
+      <div class="contact-block-content col-6-m">
+        <h2 class="fs-2 heading">The Brain Food Project&trade; &amp; EASe&trade;</h2>
+        <p>
+          Thank you for your interest in The Brain Food Project&trade; and EASe&trade;. Please contact us using the information below.
+        </p>
+        <ul class="contact-list">
+          <li><span class="icon contact-icon contact-icon-email"><a href="mailto:brain.food@comebackcommunity.com?subject=General%20Enquiry&anp;body=">brain.food@comebackcommunity.com</a></span></li>
+        </ul>
+      </div>
+
+      <div class="contact-block-form col-6-m">
+        <h2 class="fs-2 heading">Contact</h2>
+        <p>
+          If you'd like to preorder the book, please contact us using the contact form below. Let us know how many copies you need and if you are interested in any additional services such as our webinars, seminars, or in-person trainings.
+        </p>
+        <form class="contact-form" action="/mail" method="post" enctype="application/x-www-form-urlencoded">
+          <fieldset class="contact-form-wrap">
+            <legend class="sr">Contact Us</legend>
+            <div class="pad-top-5 pad-bottom-5">
+              <label class="sr" for="name">Name</label>
+              <input name="name" class="field" id="name" type="text" placeholder="Name">
+            </div>
+            <div class="pad-top-5 pad-bottom-5">
+              <label class="sr" for="email">Email</label>
+              <input name="email" class="field" id="email" type="email" placeholder="Email">
+            </div>
+            <div class="pad-top-5 pad-bottom-5">
+              <label class="sr" for="phone">Phone Number</label>
+              <input name="phone" class="field" id="phone" type="text" placeholder="Phone Number">
+            </div>
+            <div class="pad-top-5 pad-bottom-5">
+              <label class="sr" for="org">Organization</label>
+              <input name="org" class="field" id="org" type="text" placeholder="Organization">
+            </div>
+            <div class="pad-top-5 pad-bottom-5">
+              <label for="message" class="sr">Message</label>
+              <textarea placeholder="Message" class="field" name="message" id="message" cols="30" rows="7"></textarea>
+            </div>
+            <div class="text-right">
+              <input type="submit" class="button button-primary contact-submit" value="Send">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-inner container">
+    <div class="clear">
+      <div class="footer-column col-8-m">
+          <p>
+            &copy; Copyright 2016-2017 &mdash; All Rights Reserved
+          </p>
+        </div>
+      <div class="footer-column col-4-m">
+         <img src="public/img/transparentlogo.png" width="100" align="right">
+         </img>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="public/js/vendor/wow.js"></script>
+<script src="public/js/default.js"></script>
+
+</body>
+</html>
